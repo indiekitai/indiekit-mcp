@@ -1,0 +1,16 @@
+[project]
+name = "indiekit-mcp"
+version = "0.1.0"
+description = "MCP Server for IndieKit tools"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+indiekit-mcp = "indiekit_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
