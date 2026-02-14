@@ -1,5 +1,9 @@
 # IndieKit MCP Server
 
+[![PyPI](https://img.shields.io/pypi/v/indiekit-mcp?color=blue)](https://pypi.org/project/indiekit-mcp/)
+[![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 让 AI Agent 直接使用 IndieKit 工具。支持 Claude Desktop、Cursor 等 MCP 兼容客户端。
 
 ## 安装
