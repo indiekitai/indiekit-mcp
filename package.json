@@ -1,0 +1,43 @@
+{
+  "name": "@indiekitai/mcp",
+  "version": "0.1.0",
+  "description": "Unified MCP server that auto-discovers all IndieKit tools",
+  "type": "module",
+  "bin": {
+    "indiekit-mcp": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "indiekit",
+    "ai",
+    "tools",
+    "model-context-protocol"
+  ],
+  "author": "IndieKit",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
