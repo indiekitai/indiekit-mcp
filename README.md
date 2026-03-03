@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh-CN.md)
+
 # @indiekitai/mcp
 
 Unified MCP server that auto-discovers and exposes all [IndieKit](https://github.com/indiekitai) tools through a single endpoint.
